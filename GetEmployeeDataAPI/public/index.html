@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A NodeJS API" />
+    <title>A NodeJS API</title>
+  </head>
+  <body>
+    <h1>About This Site</h1>
+
+    <h2>About Me</h2>
+
+    <div id="AboutMePic">
+      <img src="LinkedInPic.jpg" alt="My LinkedIn Profile Picture" />
+    </div>
+
+    <p>
+      I am an aspiring Data Analyst. I always enjoy learning new technologies.
+    </p>
+
+    <p>
+      This API was built using NodeJS, ExpressJS, and MongoDB. Of course, this
+      static page utilizes HTML and CSS.
+    </p>
+    <br />
+    <h2>The documentation!</h2>
+    <br />
+    <div id="documentation">
+      <h4>
+        There are four potential GET calls with this API. To retrieve
+        information, append the base URL with one of the following:
+      </h4>
+      <br />
+      <ol>
+        <li>/api/employees</li>
+        <ul>
+          <li>
+            This retrieves all of the information for all of the employees
+          </li>
+        </ul>
+        <li>/api/employees/lastName/[last_name]</li>
+        <ul>
+          <li>
+            This retrieves all of the information for all of the employees with
+            the specified last_name
+          </li>
+          <li>Replace only the value inside the square brackets</li>
+        </ul>
+        <li>/api/employees/edu/[edu_level]</li>
+        <ul>
+          <li>
+            This retrieves all of the information for all of the employees with
+            the specified edu_level
+          </li>
+          <li>Use underscores (_) instead of what normally would be spaces</li>
+          <li>
+            Replace only the value inside the square brackets with one of the
+            following values (make sure it is singular, not plural): 
+            <ol>
+              <li>bachelor</li>
+              <li>associate</li>
+              <li>master </li>
+              <li>doctorate</li>
+              <li>vocational</li>
+              <li>high_school</li>
+              <li>less_than_high_school</li>
+            </ol>
+          </li>
+        </ul>
+        <li>/api/employees/co/[company_name]</li>
+        <ul>
+          <li>
+            This retrieves all of the information for all of the employees with
+            the specified company_name
+          </li>
+          <li>Replace only the value inside the square brackets</li>
+          <li>Use underscores (_) instead of what normally would be spaces</li>
+        <ul>
+      </ol>
+    </div>
+    <br />
+    <br />
+
+    <h2>How to Contact Me!</h2>
+    <div id="contactMeLogos">
+      <a href="https://github.com/DunnBC22">
+        <img src="GitHubLogo.png" alt="" />
+      </a>
+      <a href="https://www.linkedin.com/in/DunnBC22/">
+        <img src="LinkedInLogo.png" alt="" />
+      </a>
+    </div>
+  </body>
+</html>

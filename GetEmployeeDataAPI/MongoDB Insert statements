@@ -1,0 +1,32 @@
+> use employees
+switched to db employees
+> db
+employees
+> show dbs
+admin        0.000GB
+config       0.000GB
+employees    0.000GB
+local        0.000GB
+> db
+employees
+> show collections
+emp
+> db.emp.insert({})
+WriteResult({ "nInserted" : 1 })
+> db.emp.insert({
+... firstName: "Brian",
+... lastName: "Dunn",
+... educationLevel: "Bachelor"
+... , company: "Looking"})
+WriteResult({ "nInserted" : 1 })
+> db.emp.insert({
+... firstName: "Adam",
+... lastName: "Dunn",
+... educationLevel: "Associate",
+... company: "Oil Change R Us"})
+WriteResult({ "nInserted" : 1 })
+> db.emp.insert({ firstName: "Bill", lastName: "Rye", educationLevel: "Master", company: "Educator"})
+WriteResult({ "nInserted" : 1 })
+> db.emp.insert({ firstName: "Ross", lastName: "Bob", educationLevel: "Master", company: "Artist"})
+WriteResult({ "nInserted" : 1 })
+> 
