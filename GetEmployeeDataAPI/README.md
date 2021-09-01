@@ -1,8 +1,3 @@
 # Building an API with Node.js, express.js, and MongoDB
 
-This project served as a way for me to learn how to build an API with
-Node.js and express.js.
-
-This API utilitizes logging as well as some security measures.
-
-Documentation
+I created this quick API as part of learning Node.js and Express.js. The intended use would be for retrieving data for a data analysis or business intelligence type use where added new data to the server is not needed. It includes some security measures as well as logging. I decided to leave most of the work in the App.js file since it is a smaller project.
